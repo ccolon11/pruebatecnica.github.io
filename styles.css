@@ -1,0 +1,985 @@
+
+html,body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+h1,
+h2, 
+h3, 
+h4,
+h5, 
+h6 {
+  font-family: 'Concert One', sans-serif;
+  color: #fff;
+}
+p{
+  font-family: 'Concert One', sans-serif;
+  font-weight: 200;
+  color: #fff;
+}
+a {
+  color: #fff;
+  transition: .3s;
+}
+i:hover{
+  color: #99dbff;
+  font-weight: 200 !important;
+}
+.navbar-nav  .nav-link:hover {
+  color: rgb(38, 217, 230) !important;
+}
+
+#boton-sec-uno-dos:hover{
+  background-color: #99dbff;
+}
+.btn-primary:hover{
+  background-color: #99dbff;
+}
+.btn .btn-secundary.AboutUs{
+  background-color: aquamarine;
+}
+.button:hover{
+  background-color: #99dbff;
+}
+.btn .btn-warning .button-submit:hover {
+  background-color: #99dbff!important;
+}
+i:hover{
+  color: #99dbff!important;
+}
+.btn:focus {
+  box-shadow: none;
+}
+/**********************************/
+/********** Top Bar CSS ***********/
+/**********************************/
+.top-bar .top-bar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#top-bar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #003768;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  transition: background-color 0.3s ease;
+  z-index: 4;
+  padding-top: 7px;
+}
+.top-bar .top-bar-right .social {
+  text-align: right;
+}
+#social-icons{
+  display: flex;
+      gap: 20px;
+      margin-right: 75px;
+      justify-content: end;
+}
+@media (min-width: 767.98px) {
+  /*.fondoiconos{
+    margin-left: 75px;
+  }*/
+  
+}
+
+@media (max-width: 991.98px) {
+.owl-carousel {
+  padding: 0px 30px;
+}
+.pain-one{
+  padding: 0px 45px; 
+}
+.top-bar{
+  justify-content: center !important; /* Usa !important para anular la clase de Bootstrap */
+}
+.top-bar .logo {
+  text-align: center;
+}
+.top-bar .primero{
+  margin-left: 10px;
+}
+.top-bar .social {
+  display: none;
+}
+.top-bar .segundo {
+  display: none;
+}
+.top-bar .tercero{
+  margin-right: -27px;
+}
+.top-bar .orden{
+  display: flex;
+  justify-content: space-between;
+}
+h5{
+  font-size: 20px;
+}
+h6{
+  font-size: 20px;
+}
+p{
+  font-size: 17px;
+}
+p br{
+  display: none;
+}
+a{
+  font-size: 20px;
+}
+#navbar{
+  width: 100%;
+  margin-left: -28px;
+  justify-content: center !important; /* Usa !important para anular la clase de Bootstrap */
+}
+#nav-bar .navbar-toggler{
+  margin-right: 155px;
+}
+.container-chica{
+  margin-top: 20px!important;
+}
+.boton-chica{
+  padding-top: 95px;
+  margin-top: -42px;
+  /*margin-left: 80px;*/
+  display: flex;
+  justify-content: center;
+}
+.circle-heading-dos {
+  margin-left: 22px;
+}
+.all-careers{
+  display: flex;
+  justify-content: center;
+}
+.administracion{
+  margin-bottom: -105px;
+}
+.accounting{
+  margin-bottom: -105px; 
+}
+.background-image{
+  height: 141px;
+}
+.StudyCarreers .section-header{
+  margin: 0px;
+}
+#background{
+  width: 200px!important;
+}
+#background1{
+  width: 200px!important;
+}
+.StudyCarreers .custom-height-0 {
+  height: 155px  !important;/*132px*/
+  margin-bottom: 10px;
+}
+.StudyCarreers .custom-height-1 {
+  height: 155px  !important;/*132px*/
+  margin-bottom: 35px;
+}
+.StudyCarreers .custom-height-2 {
+  height: 155px  !important;/*132px*/
+  margin-top: -18px;
+  margin-bottom: 15px;
+}
+.costume-width-0{
+  height: 155px  !important;/*132px*/
+  width: 315px ;
+}
+.section3  h5{
+font-size: 30px !important;
+}
+#botones-carreers{
+  font-size: 20px !important;
+}
+.body-card{
+  margin-left: 50px !important;
+}
+.reviews .container{
+  text-align: center;
+}
+footer .container{
+  text-align: center;
+}
+#loger{
+  display: none;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+footer .logo-footer-silvera{
+  padding-left: 75px;
+}
+}
+/**********************************/
+/*********** Nav Bar CSS **********/
+/**********************************/
+
+#navbar {
+  position: fixed;
+  z-index: 4;
+  transition: background-color 0.3s ease;
+  padding: 20px;
+  margin-top: 45px;
+  width: 100vw;
+  margin-left: 0px;
+}
+.custom-toggler,
+#navbarCollapse {
+  transition: background-color 0.5s ease; 
+}
+#logo{
+  width: 95px;
+  height: 65px;
+}
+.nav-link {
+  font-size: 20px;
+  font-family: 'Concert One', sans-serif;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; 
+}
+/*******************************/
+/******** Hero *********/
+/*******************************/
+#video-principal{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+#section-hero{
+position: relative;
+display: flex;
+height: 50%;
+padding-top: 50px;
+z-index: 3;
+}
+
+#imagen-fondo {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  --overlay: linear-gradient(to right,
+  rbg(255,255,255,1));
+}
+#video-fondo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 105%;
+  z-index: 0;
+}
+
+.elemento{
+  position:relative; 
+  /*margin: 0 100px;*/
+  margin-top: 60px; 
+  z-index: 5;
+}
+#hero-content{
+  position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     margin-top: 200px;
+     justify-content: space-between;
+}
+#parte-baja {
+  position: relative;
+  padding-top: 200px;
+  padding: 5px;
+  margin-top: 75px; 
+  height: 160px; 
+}
+
+#formulario {
+  color: #ff9900;
+  background-color: white;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.title-form {
+  text-align: center;
+  background-color: #0b64e0;
+  background-position: 50%;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+/*******************************/
+/******** One Section or the most popular *********/
+/*******************************/
+/* Estilo para las secciones, solo como referencia */
+.section1 {
+  margin-top: 10px;
+}
+
+.circle-heading {
+  background-color: #ffa100;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; 
+}
+.section1 h3{
+  color: #003768;
+}
+.section1 h1{
+  color: #003768;
+}
+.section1 h6{
+  color: #003768;
+}
+#uno {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.imagencurso1 {
+  background-image: url(imagenes/IMAGE\ CURSO\ 1.jpg);
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.imagencurso2 {
+  background-image: url(imagenes/IMAGE\ CURSO\ 2.jpg);
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.imagencurso3 {
+  background-image: url(imagenes/IMAGE\ CURSO\ 3.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.imagencurso4 {
+  background-image: url(imagenes/IMAGE\ CURSO\ 4.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.botones-design:hover{
+  background-color: #003768;
+  color: #fdfeff;
+  }
+.botones-design{
+color: #fdfeff;
+background-color: #f9b33a; 
+border-radius: 13px;
+width: 100px;
+}
+
+/*******************************/
+/******* Two Section or About us *******/
+/*******************************/
+#imagen-fondo-section2 {
+  background-image: url(imagenes/BACKGROUND\ BENEFITS.jpg);
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.circle-heading-dos {
+  background-color: #ffa100;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 9px;
+  margin-top: 12px; 
+}
+.container-chica{
+  height: 315px; 
+  margin-top: 47px;
+  overflow: hidden;
+}
+.imagen-chica{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.boton-chica{
+  margin-top: -40px;
+}
+.column {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.AboutUs .AboutUs-item p{
+  font-size: 16px;
+    margin: 0;
+}
+.fondoiconos {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.imagenesiconos {
+  width: 50px;
+  margin-top: 25px;
+}
+
+/****************************************/
+/** Study carrer or Three Section ********/
+/*****************************************/
+
+#section3 h3{
+  color: #003768;
+}
+#section3 h1{
+  color: #003768;
+}
+.circle-heading-tres {
+  background-color: #ffa100;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -21px;
+  margin-right: 8px; 
+}
+.custom-width-1{
+  width: 515px;
+}
+.StudyCarreers .custom-height-0 {
+  height: 280px  
+}
+.custom-height-1 {
+  height: 280px;
+}
+.zoomable-element {
+  transition: transform 0.3s;
+}
+
+.zoomable-element:hover {
+  transform: scale(1.2);
+}
+.administracion {
+  /*background-image: url(imagenes/IMAGE\ \ CATEGORY\ ADMINISTRATION.jpg);*/
+  position: relative;
+  /*padding: 10px;*/
+  border-radius: 8px;
+  overflow: hidden;
+}
+.background-image { 
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+.background-image2 {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.background-image3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.background-image0 {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.content1 {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.zoom-effect:hover .background-image  {
+  transform: scale(1.2);
+}
+.zoom-effect:hover .background-image2{
+  transform: scale(1.2);
+}
+.zoom-effect:hover .background-image3{
+  transform: scale(1.2);
+}
+.zoom-effect:hover .background-image0{
+  transform: scale(1.2);
+}
+.accounting {
+  position: relative;
+  /*padding: 10px;*/
+  margin-bottom: 24px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+#architecture {
+  height: 133px;
+  width: 490px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+#mathematics {
+  height: 132px;
+  width: 320px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#programming {
+  height: 132px;
+  width: 320px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+#biology {
+  height: 132px;
+  width: 320px;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/*******************************/
+/******* Section 4 o Team********/
+/*******************************/
+/*.team {
+  position: relative;
+  padding: 50px 0px;
+  background-color: #eaeff2;
+}*/
+.team-item{
+  width: 200px; 
+  margin-left: 2px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%); margin-bottom: 5px; border-radius: 8px;
+  background-color: #fff;
+}
+#botonraya{
+  
+  color: #ff9900;
+  border-radius: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 15px;
+  width: 90px;
+}
+.section-header-cuatro h3{
+  color: #003768;
+}
+.section-header-cuatro h1{
+  color: #003768;
+}
+.team .imagenbackgroundteam{
+  background-image: url(imagenes/IMAGE\ BACKGROUND\ CARD\ TEAM\ \ \(3\).jpg);
+  height: 80px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.team .imagenteam1{
+  background-image: url(imagenes/IMAGE\ TEAM\ 1.jpg);
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: -50px;
+  padding: 40px;
+  border-radius: 50%;
+  border:5px solid white;
+  transition: all 0.4s;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team .imagenteam2{
+  background-image: url(imagenes/IMAGE\ TEAM\ 2.jpg);
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: -50px;
+  padding: 40px;
+  border-radius: 50%;
+  border:5px solid white;
+  transition: all 0.4s;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team .imagenteam3{
+  background-image: url(imagenes/IMAGE\ TEAM\ 3.jpg);
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: -50px;
+  padding: 40px;
+  border-radius: 50%;
+  border:5px solid white;
+  transition: all 0.4s;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team .imagenteam4{
+  background-image: url(imagenes/IMAGE\ TEAM\ 4.jpg);
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: -50px;
+  padding: 40px;
+  border-radius: 50%;
+  border:5px solid white;
+  transition: all 0.4s;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*******************************/
+/******* Five Section or Review *******/
+/*******************************/
+.reviews{
+  padding: 100px 0px;
+}
+.reviews .container{
+    max-width: 655px !important;
+    max-height: 650px !important;
+}
+.section5 {
+  background-image: url(imagenes/senalando-boceto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #ddd;
+ 
+}
+.section5 .section-header{
+  margin-top: 92px;
+}
+.section5 .section-header h1{
+  font-size: 35px;
+}
+#carousel {
+  max-width: 300px; 
+  margin: auto; 
+}
+#carousel-container{
+  margin-left: -15px;
+}
+.carousel-item {
+  width: 100%; 
+}
+
+.carousel-inner img {
+  width: 100%; 
+  height: 250px; 
+  object-fit: cover; 
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: #ff9900;
+  background-color: #ff9900;
+}
+.play-btn {
+  display: block;
+  width: 94px;
+  height: 94px;
+  position:absolute; 
+  z-index:666;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  color: #ffff;
+  background: orangered;
+  border:0;
+  border-radius: 50%;
+  left: calc(50%-47px);
+  top: calc(50%-47px);
+  transition: 5.s;
+  overflow: hidden;
+  z-index: 1;
+}
+.play-btn:hover {
+  cursor:pointer;
+}
+.play-btn:focus {
+  outline:0;
+}
+#closeButton { 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000; 
+} 
+#videoContainer {
+  position: absolute;
+  top: -11px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+}
+#videoContainer video {
+  width: 100%;
+  height: 100%;
+}
+.tittle-awards{
+position: relative;
+text-align: center;
+padding: 8px 18px;
+font-size: 18px;
+color: orangered;
+font-weight: 600;
+text-transform: uppercase;
+background-color:#fff ;
+width: max-content;
+margin: -26px auto 15px auto;
+border-radius: 6px;
+min-width: 200px;}
+/*******************************/
+/******* TODOS LOS BOTONES DE LA PAGINA *******/
+/*******************************/
+.logitos{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  transition: transform .4s ease;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;  }
+  
+  #boton{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1;
+    height: 50px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+    background: #ffa100;
+    color: #fff!important;
+    border-radius: 55px;
+    box-shadow: -1px 1px 0 var(--secondary-light),-6px 5px 0 var(--primary-dark);
+    border: solid 3px #fff;
+    min-width: 164px;
+    width: max-content;
+    max-width: 350px;
+  }
+  #boton-sec-uno-dos{
+    font-size: 18px;
+    line-height: 1;
+    height: 40px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+    background: #fff;
+    color: #ffa100!important;
+    border-radius: 55px;
+    border: solid 2px #ffa100;
+    min-width: 130px;
+    width: max-content;
+    max-width: 350px;
+  }
+  #botones-carreers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 90px;
+    background: #ffa100;
+    color: #fff!important;
+    border: solid 2px #fff;
+    transition: all .5s ease;
+    border-radius: 55px;
+  }
+  #botones-carreers:hover{
+    background: #99dbff;
+  }
+  #boton:hover{
+    background: #99dbff;
+  }
+  #botonplay{
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#99dbff 50%, rgba(104, 164, 196, 0.4) 52%);
+    border-radius: 50%;
+    /*display: block;*/
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+  }
+  /*******************************/
+  /******* FINALIZA TODOS LOS BOTONES DE LA PAGINA *******/
+  /*******************************/
+
+
+  /*******************************/
+  /******* Footer *******/
+  /*******************************/
+footer{
+  background-color: #003768;
+}
+.logo-footer-silvera{
+  padding-left: 210px;
+}
+.input-group {
+  height: 30px;
+  border-radius: 30px;
+  background-color: #fff; 
+  overflow: hidden; 
+}
+#inputAddress{
+  background-color: rgba(230, 219, 219, 0.765);
+  border: none;
+  border-radius: 23px;
+  padding-top: 3px;
+  height: 30px;
+}
+#inputEmail4{
+  background-color: rgba(230, 219, 219, 0.765);
+  border: none;
+  border-radius: 23px;
+  padding-top: 3px;
+  height: 30px;
+}
+#inputPassword4{
+  background-color: rgba(230, 219, 219, 0.765);
+  border: none;
+  border-radius: 23px;
+  padding-top: 3px;
+  height: 30px;
+}
+#inputAddress2{
+  background-color: rgba(230, 219, 219, 0.765);
+  border: none;
+  border-radius: 23px;
+  padding-top: 3px;
+  height: 30px;
+}
+#place{
+  background-color: rgba(230, 219, 219, 0.765);
+  border: none;
+  border-radius: 14px;
+  padding-top: 3px;
+  height: 30px;
+}
+#bt1{
+  border: none;
+  border-radius: 23px;
+  padding-top: 3px;
+  height: 30px;
+}
+.custom-input-group input{
+  size: 20px;
+  opacity: 5; 
+  padding-bottom: 8px;
+}
+.custom-input-group input,
+.custom-input-group select,
+.custom-input-group .button-submit {
+  height: 31px;
+  border: none;
+  border-radius: 23px;
+  padding-top: 3px;
+}
+
+.custom-input-group .button-submit {
+  background-color: #f9b33a; 
+  border-radius: 23px;
+}
+.custom-input-group .button-submit:hover{
+  background-color: #99dbff;
+}
